@@ -19,6 +19,7 @@ public class Relationship {
 	
 	/**
 	 * check if age is adult
+
 	 */
 	public static boolean isAdult(int age){
 		return age >= 16;
@@ -26,6 +27,7 @@ public class Relationship {
 	
 	/**
 	 * read gender
+
 	 */
 	public static char readGender(){
 		
@@ -52,6 +54,7 @@ public class Relationship {
 	
 	/**
 	 * read an integer between minimum and maximum
+
 	 */
 	public static int readInt(String prompt, int min, int max){
 		
@@ -78,6 +81,7 @@ public class Relationship {
 	
 	/**
 	 * choose relation
+
 	 */
 	public static String chooseRelation(){
 		
@@ -107,6 +111,7 @@ public class Relationship {
 	
 	/**
 	 * read a string and validate not empty
+
 	 */
 	public static String readString(String prompt){
 		
